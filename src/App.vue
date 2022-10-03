@@ -2,7 +2,7 @@
 
 export default {
   data: () => ({
-    contador: 10
+    contador: 100
   }),
   methods: {
     substract(){
