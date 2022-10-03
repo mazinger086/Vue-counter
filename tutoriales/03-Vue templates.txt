@@ -1,0 +1,21 @@
+Vue templates
+
+-Borramos la carpeta components y todo lo que tiene el App.vue
+
+Que son los SFC? (Single file components)
+
+Todo en Vue funciona con ellos, son componentes o sea una pequeña parte de una aplicacion
+los cuales estan metidos en la app, por ejemplo: 
+<template>
+  <h1>Hola mundo desde Vue 3</h1>
+</template> 
+
+estos componentes nos van a permitir hacer importaciones de imagenes
+
+<template>
+  <img src="./assets/logo.svg" alt="logo vue" width="125">
+  <h1>Hola mundo desde Vue 3</h1>
+</template> 
+
+
+

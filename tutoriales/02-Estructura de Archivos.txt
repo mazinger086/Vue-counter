@@ -1,0 +1,28 @@
+Estructura de Archivos:
+
+package.json: Trae la informacion de como funciona el proyecto 
+y que comandos, scripts o dependencias se necesitan o se encuentran instaladas
+
+package-lock.json: Se trae por defecto y es generado automaticamente y no se modifica
+
+README.md: Es el tipico archivo de marcado util al subir en Github
+
+vite.config: Es la configuracion del servidor utilizado para levantar el projecto
+
+index.html: Es archivo general del HTML, en caso de querer agregar alguna libreria por CDN lo 
+aplicariamos aqui
+
+.gitignore: Control de versiones con GIT, incluye los archivos que no se van a subir en Github
+
+CARPETAS:
+
+vscode: Nos muestra las extensiones y recomendaciones dentro del proyecto
+
+node_modules: Es la carpeta que no se toca y en la cual estan todos los modulos y dependencias para
+que funcione el sitio, generalmente es ignorada por el gitignore
+
+public: esta carpeta contiene la matoria de los archivos estaticos por ej: librerias, imagenes, iconos, que se vayan a utilizar desde el index.html etc
+
+src: Nuestra carpeta principal y con la que mas vamos a trabajar, a su vez tiene una carpeta Assets
+, Components y el App.vue
+

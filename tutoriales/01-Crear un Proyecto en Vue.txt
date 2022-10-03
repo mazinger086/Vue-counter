@@ -1,0 +1,21 @@
+Clase 01:
+
+- Crear proyecto desde linea de comandos:
+1)Te dirigis a la carpeta en donde este situada 
+2) Abris una terminal
+3) npm init vue@latest
+4) Te va pdir que selecciones Yes/No:
+-Project name
+-Typescript
+-JSX
+-Vue Router
+-Pinia
+-Vitest
+-Cypress
+-ESLint
+5) Una vez hecho eso te va aparecer algo asi:
+  cd 01-fundamentos
+  npm install
+  npm run dev
+6) Seguis los comando y listo 
+

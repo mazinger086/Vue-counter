@@ -1,0 +1,6 @@
+Estilos en Vue JS
+
+Los estilos se pueden importar tanto dentro del app.vue con la etiqueta <style></style>
+se le puede agregar la pseudo clase scoped para aplicar los cambios dentro de un alcance en particular
+y tambien se pueden importar con @import "../direccion.css". 
+Otra manera sera enlazar la hoja de estilos al index html con la etiqueta <link> pero no es el caso

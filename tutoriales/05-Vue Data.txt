@@ -1,0 +1,28 @@
+Vue Data:
+
+Nos permite pintar los datos en el template mediante las dobles llaves de la siguiente manera
+
+<script>
+
+export default {
+  data: () => ({
+    contador: 100
+  })  
+}
+</script>
+
+<template>
+  <img src="./assets/logo.svg" alt="logo vue" width="125" height="125" />
+  <small>
+    <h1>Hola mundo desde Vue.js 3</h1>
+  </small>
+
+  <h2>Contador: {{contador}}</h2>
+
+  <div class="buttons">
+    <button>+1</button>
+    <button>-1</button>
+    <button>Reset</button>
+  </div>
+  
+</template>
